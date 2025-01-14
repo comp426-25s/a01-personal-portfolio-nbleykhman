@@ -84,7 +84,10 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 0;
+}
+
+.language img, .tool img{
+    padding: 5px;
 }
 
 .language, .tool {
@@ -109,7 +112,7 @@ main {
     margin-bottom: 20px;
 }
 
-#certifications h2 {
+#certifications h2, #skills h2, #classes h2, #projects h2, #about-me h2 {
     margin-top: 0;
     margin-bottom: 15px; 
 }
