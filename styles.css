@@ -1,0 +1,121 @@
+header img {
+    width: 200px;
+    height: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.description {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#meet-tarheel {
+    text-align: center;
+}
+
+#classes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#classes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#classes ul li {
+    font-size: 15px;
+}
+
+#skills {
+    text-align: center;
+}
+#programming-languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.language img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#tools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
+
+.tool img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#certifications ul {
+    list-style: disc;
+    font-size: 15px;
+    text-align: center;
+}
+
+#certifications ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+#projects {
+    text-align: center;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects ul li {
+    font-size: 15px;
+}
+
+
